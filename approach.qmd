@@ -1,0 +1,21 @@
+---
+pagetitle: "Approach | Juan Isaula"
+lang: en
+---
+
+```{=html}
+<div class="editorial-site">
+<header class="topbar">
+    <a class="brand" href="en.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a href="profile.html">Profile</a><a href="projects.html">Projects</a><a href="research.html">Research</a><a class="active" href="approach.html">Approach</a><a href="contact.html">Contact</a>
+    </nav>
+    <div class="lang"><a href="enfoque.html">ES</a><span>/</span><a class="active" href="approach.html">EN</a></div>
+  </header>
+<main class="page-main"><section class="inner-hero reveal"><div class="page-kicker">03 / APPROACH</div><h1 class="page-title">How I think about an<br><em>analytical project.</em></h1></section><section class="approach-wrap"><div class="approach-head reveal"><h2>Methodology should serve the decision.</h2><p>The objective is not to use the most complex model, but to build enough robust, testable and operational evidence to improve a concrete decision.</p></div><div class="approach-list"><article class="reveal"><span>01</span><h3>Understand the decision</h3><p>Define which decision should improve, who makes it and what constraints exist before modeling.</p></article><article class="reveal"><span>02</span><h3>Design the evidence</h3><p>Select data, variables and methodology with traceability, robustness and validation in mind.</p></article><article class="reveal"><span>03</span><h3>Test before trusting</h3><p>Backtesting, alternative comparisons, sensitivity analysis and documentation are part of development.</p></article><article class="reveal"><span>04</span><h3>Turn it into a product</h3><p>The result should be usable: dashboard, application, automation, report or reproducible process.</p></article></div></section></main>
+<footer class="footer-editorial"><span>© <span data-year></span> Juan Isaula</span><span>Analytical approach</span></footer>
+</div>
+```

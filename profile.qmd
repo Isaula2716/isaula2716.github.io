@@ -1,0 +1,78 @@
+---
+pagetitle: "Profile | Juan Isaula"
+lang: en
+---
+
+```{=html}
+<div class="editorial-site">
+  <header class="topbar">
+    <a class="brand" href="en.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a class="active" href="profile.html">Profile</a><a href="projects.html">Projects</a><a href="research.html">Research</a><a href="approach.html">Approach</a><a href="contact.html">Contact</a>
+    </nav>
+    <div class="lang"><a href="perfil.html">ES</a><span>/</span><a class="active" href="profile.html">EN</a></div>
+  </header>
+
+  <main class="page-main">
+    <section class="inner-hero reveal">
+      <div class="page-kicker">01 / PROFILE</div>
+      <h1 class="page-title">Rigorous analytics.<br><em>Practical implementation.</em></h1>
+      <p class="page-subtitle">
+        My profile combines data science, risk analytics and solution development.
+        I am especially interested in problems where value depends both on the quality
+        of the model and on its ability to reach a usable decision or product.
+      </p>
+    </section>
+
+    <section class="profile-layout profile-layout-deep">
+      <div class="profile-photo reveal">
+        <figure>
+          <img src="assets/juan-isaula-profile.png" alt="Portrait of Juan Isaula">
+          <figcaption><span>Juan Isaula</span><span>Data Science · Risk Analytics</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="profile-copy reveal">
+        <div class="section-label">PROFESSIONAL PERSPECTIVE</div>
+        <h2>Modeling is only part of the work.</h2>
+        <p>
+          I work on problems where statistics, programming, risk and business intersect.
+          That means structuring data, framing hypotheses, comparing methodologies,
+          validating results, communicating assumptions and turning analysis into tools
+          that other teams can actually use.
+        </p>
+        <p>
+          I focus on reproducible and defensible solutions: models that can be explained,
+          processes that can be maintained and products that support better decisions.
+        </p>
+
+        <div class="profile-notes">
+          <article><strong>01</strong><h3>Modeling</h3><p>Forecasting, stress testing, segmentation, supervised models and statistical analysis.</p></article>
+          <article><strong>02</strong><h3>Risk</h3><p>Portfolio monitoring, indicators, risk appetite and deterioration dynamics.</p></article>
+          <article><strong>03</strong><h3>Product</h3><p>Dashboards, applications, automation and analytical experiences for users.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-principles reveal">
+      <div class="section-label">WHAT DEFINES MY WORK</div>
+      <div class="principles-grid">
+        <article><span>01</span><h3>Analytical rigor</h3><p>Methodology should be grounded in data, clear assumptions, validation and evidence.</p></article>
+        <article><span>02</span><h3>Business relevance</h3><p>A useful result should answer a concrete question and make a decision easier.</p></article>
+        <article><span>03</span><h3>Implementation mindset</h3><p>I think about how analysis fits into processes, applications, reporting and real users.</p></article>
+        <article><span>04</span><h3>Communication</h3><p>Technical complexity should be explainable to both technical and executive audiences.</p></article>
+      </div>
+    </section>
+
+    <section class="toolkit-strip reveal">
+      <div class="label">Toolkit</div>
+      <div class="toolkit-row"><span>Python</span><span>R</span><span>SQL</span><span>Quarto</span><span>R Shiny</span><span>Power BI</span><span>Power Apps</span><span>Fabric</span><span>GitHub</span></div>
+    </section>
+  </main>
+
+  <footer class="footer-editorial"><span>© <span data-year></span> Juan Isaula</span><span>Profile</span></footer>
+</div>
+```

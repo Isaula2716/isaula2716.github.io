@@ -1,0 +1,114 @@
+---
+pagetitle: "Proyectos | Juan Isaula"
+lang: es
+description: "Portafolio de proyectos de Juan Isaula en modelación de riesgos, forecasting, machine learning, analítica y productos de datos."
+---
+
+```{=html}
+<div class="editorial-site">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a href="perfil.html">Perfil</a>
+      <a class="active" href="proyectos.html">Proyectos</a>
+      <a href="publicaciones.html">Publicaciones</a>
+      <a href="enfoque.html">Enfoque</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="lang"><a class="active" href="proyectos.html">ES</a><span>/</span><a href="projects.html">EN</a></div>
+  </header>
+
+  <main class="page-main">
+    <section class="projects-head balanced-projects-head reveal">
+      <div>
+        <div class="page-kicker">02 / PROYECTOS</div>
+        <h1 class="page-title">Modelos y <em>analítica aplicada.</em></h1>
+      </div>
+      <p>
+        Mi trabajo cubre diferentes dimensiones de la analítica de riesgos:
+        modelación de crédito, escenarios, riesgo sectorial, machine learning,
+        monitoreo, productos de datos y automatización. Las descripciones se
+        presentan de forma general para proteger información confidencial.
+      </p>
+    </section>
+
+    <section class="portfolio-grid-balanced">
+      <article class="portfolio-card reveal">
+        <div class="portfolio-card-top"><span>01</span><small>RISK MODELING</small></div>
+        <h3>Modelos de Riesgo de Crédito</h3>
+        <p>
+          Desarrollo y evaluación de parámetros y modelos para riesgo de crédito:
+          PD, LGD, EAD, comportamiento, recuperación, deterioro y métricas de desempeño.
+        </p>
+        <div class="portfolio-card-tags"><span>IFRS 9</span><span>Scoring</span><span>LGD</span></div>
+      </article>
+
+      <article class="portfolio-card reveal">
+        <div class="portfolio-card-top"><span>02</span><small>FORECASTING · STRESS TESTING</small></div>
+        <h3>Forward-Looking & Escenarios</h3>
+        <p>
+          Modelos con variables macroeconómicas, estructuras de rezagos,
+          backtesting y escenarios base/adversos para proyección de indicadores de riesgo.
+        </p>
+        <div class="portfolio-card-tags"><span>Time Series</span><span>Macro</span><span>Stress</span></div>
+      </article>
+
+      <article class="portfolio-card reveal">
+        <div class="portfolio-card-top"><span>03</span><small>SECTOR RISK</small></div>
+        <h3>Riesgo Sectorial y Sistémico</h3>
+        <p>
+          Metodologías para cuantificar y monitorear riesgo por sectores económicos,
+          incorporando nivel, dinámica, variación, volatilidad y exposición.
+        </p>
+        <div class="portfolio-card-tags"><span>IRSS</span><span>Volatility</span><span>Monitoring</span></div>
+      </article>
+
+      <article class="portfolio-card reveal">
+        <div class="portfolio-card-top"><span>04</span><small>MACHINE LEARNING</small></div>
+        <h3>Segmentación & Modelos Predictivos</h3>
+        <p>
+          Clustering, comparación de algoritmos, importancia de variables y
+          construcción de perfiles accionables para apoyar decisiones de negocio.
+        </p>
+        <div class="portfolio-card-tags"><span>K-Means</span><span>GMM</span><span>ML</span></div>
+      </article>
+
+      <article class="portfolio-card reveal">
+        <div class="portfolio-card-top"><span>05</span><small>RISK ANALYTICS · DATA PRODUCTS</small></div>
+        <h3>Monitoreo & Apetito de Riesgo</h3>
+        <p>
+          Soluciones para captura, parametrización, seguimiento y visualización
+          de indicadores, límites, tendencias y señales de riesgo para usuarios ejecutivos.
+        </p>
+        <div class="portfolio-card-tags"><span>R Shiny</span><span>Power BI</span><span>Power Apps</span></div>
+      </article>
+
+      <article class="portfolio-card reveal">
+        <div class="portfolio-card-top"><span>06</span><small>AUTOMATION · APPLIED AI</small></div>
+        <h3>Automatización, Datos & IA Aplicada</h3>
+        <p>
+          Integración de fuentes, automatización de procesos, productos analíticos
+          y evaluación de casos de uso de IA y RAG para funciones de riesgo.
+        </p>
+        <div class="portfolio-card-tags"><span>Fabric</span><span>SQL</span><span>RAG</span></div>
+      </article>
+    </section>
+
+    <section class="projects-research-link reveal">
+      <div>
+        <span>INVESTIGACIÓN</span>
+        <h2>La práctica profesional también convive con investigación académica.</h2>
+      </div>
+      <a href="publicaciones.html">Ver publicaciones →</a>
+    </section>
+  </main>
+
+  <footer class="footer-editorial">
+    <span>© <span data-year></span> Juan Isaula</span>
+    <span>Modelos · Riesgo · Analítica · IA</span>
+  </footer>
+</div>
+```

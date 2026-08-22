@@ -1,0 +1,12 @@
+# Quarto build output
+_site/
+.quarto/
+
+# RStudio
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+/.quarto/
+**/*.quarto_ipynb

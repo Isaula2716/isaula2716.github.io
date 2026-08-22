@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Juan Isaula"
+  favicon: assets/favicon.svg
+  page-navigation: false
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    include-after-body: scripts.html
+    page-layout: full
+    smooth-scroll: false
+
+execute:
+  freeze: auto

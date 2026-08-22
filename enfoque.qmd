@@ -1,0 +1,27 @@
+---
+pagetitle: "Enfoque | Juan Isaula"
+lang: es
+---
+
+```{=html}
+<div class="editorial-site">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a href="perfil.html">Perfil</a><a href="proyectos.html">Proyectos</a><a href="publicaciones.html">Publicaciones</a><a class="active" href="enfoque.html">Enfoque</a><a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="lang"><a class="active" href="enfoque.html">ES</a><span>/</span><a href="approach.html">EN</a></div>
+  </header>
+  <main class="page-main">
+    <section class="inner-hero reveal"><div class="page-kicker">03 / ENFOQUE</div><h1 class="page-title">Cómo pienso un<br><em>proyecto analítico.</em></h1></section>
+    <section class="approach-wrap">
+      <div class="approach-head reveal"><h2>La metodología debe servir a la decisión.</h2><p>El objetivo no es utilizar el modelo más complejo, sino construir evidencia suficiente, validable y operativa para mejorar una decisión concreta.</p></div>
+      <div class="approach-list"><article class="reveal"><span>01</span><h3>Entender la decisión</h3><p>Defino qué decisión debe mejorar, quién la toma y qué restricciones existen antes de modelar.</p></article><article class="reveal"><span>02</span><h3>Diseñar la evidencia</h3><p>Selecciono datos, variables y metodología buscando trazabilidad, robustez y capacidad de validación.</p></article><article class="reveal"><span>03</span><h3>Probar antes de confiar</h3><p>Backtesting, comparación de alternativas, sensibilidad y documentación forman parte del desarrollo.</p></article><article class="reveal"><span>04</span><h3>Convertirlo en producto</h3><p>El resultado debe poder utilizarse: dashboard, aplicación, automatización, reporte o proceso reproducible.</p></article></div>
+    </section>
+  </main>
+  <footer class="footer-editorial"><span>© <span data-year></span> Juan Isaula</span><span>Enfoque analítico</span></footer>
+</div>
+```

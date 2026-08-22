@@ -1,0 +1,82 @@
+---
+pagetitle: "Publicaciones | Juan Isaula"
+lang: es
+description: "Investigación y publicaciones académicas de Juan Isaula en ciencia de datos, forecasting y aplicaciones financieras."
+---
+
+```{=html}
+<div class="editorial-site">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a href="perfil.html">Perfil</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a class="active" href="publicaciones.html">Publicaciones</a>
+      <a href="enfoque.html">Enfoque</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="lang"><a class="active" href="publicaciones.html">ES</a><span>/</span><a href="research.html">EN</a></div>
+  </header>
+
+  <main class="page-main">
+    <section class="research-hero reveal">
+      <div class="page-kicker">03 / PUBLICACIONES</div>
+      <h1 class="page-title">Investigación <em>aplicada.</em></h1>
+      <p>
+        La investigación académica complementa mi trabajo profesional:
+        permite explorar metodologías con mayor profundidad, comparar enfoques
+        y documentar resultados de manera reproducible.
+      </p>
+    </section>
+
+    <section class="publication-feature reveal">
+      <div class="publication-meta">
+        <span>ARTÍCULO · 2025</span>
+        <div class="journal">Economía y Administración (E&A)</div>
+        <div class="issue">Vol. 17 · Núm. 2 · pp. 75–100</div>
+      </div>
+
+      <div class="publication-body">
+        <h2>Redes neuronales recurrentes aplicadas al pronóstico de precios en el mercado de valores 2018–2024</h2>
+        <p>
+          Estudio comparativo de arquitecturas de redes neuronales recurrentes
+          LSTM y GRU para el pronóstico de índices y activos financieros,
+          evaluando su desempeño mediante error cuadrático medio.
+        </p>
+
+        <div class="publication-tags">
+          <span>LSTM</span><span>GRU</span><span>Deep Learning</span>
+          <span>Forecasting</span><span>Financial Markets</span>
+        </div>
+
+        <div class="publication-citation">
+          Isaula Mejía, J. Ángel. (2025). <em>Redes neuronales recurrentes aplicadas al pronóstico de precios en el mercado de valores 2018–2024.</em>
+          Economía y Administración (E&A), 17(2), 75–100.
+        </div>
+
+        <div class="publication-actions">
+          <a href="https://doi.org/10.5377/eya.v17i2.21510" target="_blank" rel="noopener">Abrir publicación ↗</a>
+          <a href="https://www.camjol.info/index.php/EyA/article/view/21510/26415" target="_blank" rel="noopener">Ver PDF ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="research-lines reveal">
+      <div class="section-label">LÍNEAS DE INTERÉS</div>
+      <div class="research-lines-grid">
+        <article><span>01</span><h3>Forecasting financiero</h3><p>Series de tiempo, deep learning y comparación de métodos para problemas de predicción.</p></article>
+        <article><span>02</span><h3>Analítica de riesgos</h3><p>Modelación, indicadores, escenarios, riesgo sectorial y métodos cuantitativos aplicados.</p></article>
+        <article><span>03</span><h3>Ciencia de datos aplicada</h3><p>Uso de machine learning y herramientas computacionales para resolver problemas económicos y financieros.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-editorial">
+    <span>© <span data-year></span> Juan Isaula</span>
+    <span>Investigación · Publicaciones</span>
+  </footer>
+</div>
+```

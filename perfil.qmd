@@ -1,0 +1,77 @@
+---
+pagetitle: "Perfil | Juan Isaula"
+lang: es
+---
+
+```{=html}
+<div class="editorial-site">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a class="active" href="perfil.html">Perfil</a><a href="proyectos.html">Proyectos</a><a href="publicaciones.html">Publicaciones</a><a href="enfoque.html">Enfoque</a><a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="lang"><a class="active" href="perfil.html">ES</a><span>/</span><a href="profile.html">EN</a></div>
+  </header>
+
+  <main class="page-main">
+    <section class="inner-hero reveal">
+      <div class="page-kicker">01 / PERFIL</div>
+      <h1 class="page-title">Analítica rigurosa.<br><em>Implementación práctica.</em></h1>
+      <p class="page-subtitle">
+        Mi perfil combina ciencia de datos, analítica de riesgos y desarrollo de soluciones.
+        Me interesan especialmente los retos donde el valor depende tanto de la calidad del modelo
+        como de su capacidad de llegar a una decisión o producto utilizable.
+      </p>
+    </section>
+
+    <section class="profile-layout profile-layout-deep">
+      <div class="profile-photo reveal">
+        <figure>
+          <img src="assets/juan-isaula-profile.png" alt="Fotografía de Juan Isaula">
+          <figcaption><span>Juan Isaula</span><span>Data Science · Risk Analytics</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="profile-copy reveal">
+        <div class="section-label">PERSPECTIVA PROFESIONAL</div>
+        <h2>Modelar es solo una parte del trabajo.</h2>
+        <p>
+          Trabajo con problemas donde se cruzan estadística, programación, riesgo y negocio.
+          Eso implica estructurar datos, formular hipótesis, comparar metodologías, validar resultados,
+          comunicar supuestos y convertir el análisis en herramientas que puedan utilizar otros equipos.
+        </p>
+        <p>
+          Mi interés está en soluciones reproducibles y defendibles: modelos que puedan explicarse,
+          procesos que puedan mantenerse y productos que ayuden a tomar mejores decisiones.
+        </p>
+
+        <div class="profile-notes">
+          <article><strong>01</strong><h3>Modelación</h3><p>Forecasting, stress testing, segmentación, modelos supervisados y análisis estadístico.</p></article>
+          <article><strong>02</strong><h3>Riesgo</h3><p>Monitoreo de portafolios, indicadores, apetito de riesgo y dinámica de deterioro.</p></article>
+          <article><strong>03</strong><h3>Producto</h3><p>Dashboards, aplicaciones, automatización y experiencias analíticas para usuarios.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-principles reveal">
+      <div class="section-label">LO QUE DEFINE MI TRABAJO</div>
+      <div class="principles-grid">
+        <article><span>01</span><h3>Rigor analítico</h3><p>La metodología debe sostenerse en datos, supuestos claros, validación y evidencia.</p></article>
+        <article><span>02</span><h3>Relevancia de negocio</h3><p>Un resultado útil debe responder una pregunta concreta y facilitar una decisión.</p></article>
+        <article><span>03</span><h3>Mentalidad de implementación</h3><p>Pienso en cómo el análisis se integra a procesos, aplicaciones, reportes y usuarios reales.</p></article>
+        <article><span>04</span><h3>Comunicación</h3><p>La complejidad técnica debe poder explicarse de forma clara a audiencias técnicas y ejecutivas.</p></article>
+      </div>
+    </section>
+
+    <section class="toolkit-strip reveal">
+      <div class="label">Toolkit</div>
+      <div class="toolkit-row"><span>Python</span><span>R</span><span>SQL</span><span>Quarto</span><span>R Shiny</span><span>Power BI</span><span>Power Apps</span><span>Fabric</span><span>GitHub</span></div>
+    </section>
+  </main>
+
+  <footer class="footer-editorial"><span>© <span data-year></span> Juan Isaula</span><span>Perfil</span></footer>
+</div>
+```

@@ -1,0 +1,110 @@
+---
+pagetitle: "Contact | Juan Isaula"
+lang: en
+description: "Professional contact information for Juan Isaula: LinkedIn, GitHub and email."
+---
+
+```{=html}
+<div class="editorial-site">
+  <header class="topbar">
+    <a class="brand" href="en.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text">
+        <strong>Juan Isaula</strong>
+        <small>Data Science · Risk Analytics</small>
+      </span>
+    </a>
+
+    <nav class="topnav" aria-label="Primary navigation">
+      <a href="profile.html">Profile</a>
+      <a href="projects.html">Projects</a>
+      <a href="research.html">Research</a>
+      <a href="approach.html">Approach</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="lang">
+      <a href="contacto.html">ES</a><span>/</span><a class="active" href="contact.html">EN</a>
+    </div>
+  </header>
+
+  <main class="page-main contact-v2">
+    <section class="contact-v2-copy reveal">
+      <div class="page-kicker">05 / CONTACT</div>
+
+      <h1 class="page-title">
+        Let's talk about
+        <em>data, risk and AI.</em>
+      </h1>
+
+      <p class="contact-intro">
+        If you would like to connect around data science, risk analytics,
+        modeling, research or applied artificial intelligence, you can reach
+        me through any of these channels.
+      </p>
+
+      <div class="contact-topics">
+        <span>Risk Analytics</span>
+        <span>Data Science</span>
+        <span>Forecasting</span>
+        <span>Machine Learning</span>
+        <span>Applied AI</span>
+      </div>
+
+      <blockquote class="contact-quote">
+        <span>“</span>
+        <p>The best analytical solutions begin with a good question.</p>
+      </blockquote>
+    </section>
+
+    <aside class="contact-v2-panel reveal">
+      <div class="contact-panel-head">
+        <small>LET'S CONNECT</small>
+        <h2>Professional channels</h2>
+        <p>Choose whichever works best for you.</p>
+      </div>
+
+      <div class="contact-v2-links">
+        <a href="https://www.linkedin.com/in/jisaula" target="_blank" rel="noopener noreferrer">
+          <span class="contact-link-index">01</span>
+          <div>
+            <small>LINKEDIN</small>
+            <strong>Juan Isaula</strong>
+            <p>linkedin.com/in/jisaula</p>
+          </div>
+          <b>↗</b>
+        </a>
+
+        <a href="https://github.com/Isaula2716" target="_blank" rel="noopener noreferrer">
+          <span class="contact-link-index">02</span>
+          <div>
+            <small>GITHUB</small>
+            <strong>@Isaula2716</strong>
+            <p>github.com/Isaula2716</p>
+          </div>
+          <b>↗</b>
+        </a>
+
+        <a href="mailto:juanisaula487@gmail.com">
+          <span class="contact-link-index">03</span>
+          <div>
+            <small>EMAIL</small>
+            <strong>juanisaula487@gmail.com</strong>
+            <p>Send me an email</p>
+          </div>
+          <b>→</b>
+        </a>
+      </div>
+
+      <div class="contact-panel-foot">
+        <span>Honduras · Available online</span>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer-editorial">
+    <span>© <span data-year></span> Juan Isaula</span>
+    <span>LinkedIn · GitHub · Email</span>
+  </footer>
+</div>
+```

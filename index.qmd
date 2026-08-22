@@ -1,0 +1,125 @@
+---
+pagetitle: "Juan Isaula | Ciencia de Datos & Analítica de Riesgos"
+lang: es
+description: "Portafolio profesional de Juan Isaula: Ciencia de Datos, Analítica de Riesgos, Forecasting, Machine Learning e IA Aplicada."
+---
+
+```{=html}
+<div class="editorial-site home-screen-site">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a href="perfil.html">Perfil</a><a href="proyectos.html">Proyectos</a><a href="publicaciones.html">Publicaciones</a><a href="enfoque.html">Enfoque</a><a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="lang"><a class="active" href="index.html">ES</a><span>/</span><a href="en.html">EN</a></div>
+  </header>
+
+  <main class="home-screen page-main">
+    <section class="home-screen-copy reveal">
+      <div class="page-kicker">DATA SCIENCE · RISK ANALYTICS · APPLIED AI</div>
+
+      <h1>
+        Datos, riesgo y tecnología
+        <em>para decisiones accionables.</em>
+      </h1>
+
+      <p>
+        Desarrollo modelos, metodologías y productos analíticos que conectan
+        estadística, conocimiento de riesgo y tecnología con problemas reales
+        de negocio.
+      </p>
+
+      <div class="home-screen-flow">
+        <span>Datos</span><i>→</i>
+        <span>Modelos</span><i>→</i>
+        <span>Validación</span><i>→</i>
+        <span>Decisiones</span>
+      </div>
+
+      <div class="home-screen-actions">
+        <a class="screen-primary" href="proyectos.html">Explorar proyectos →</a>
+        <a href="perfil.html">Conocer mi perfil</a>
+      </div>
+
+      <div class="home-screen-tags">
+        <span>Credit Risk</span>
+        <span>Forecasting</span>
+        <span>Machine Learning</span>
+        <span>Data Products</span>
+        <span>Applied AI</span>
+        <span>Research</span>
+      </div>
+    </section>
+
+    <section class="home-screen-photo reveal">
+      <figure>
+        <img src="assets/juan-isaula-profile.png" alt="Fotografía de Juan Isaula">
+        <figcaption>
+          <strong>Juan Isaula</strong>
+          <span>Ciencia de Datos · Riesgo · IA Aplicada</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <nav class="home-screen-nav reveal" aria-label="Explorar portafolio">
+      <a href="perfil.html">
+        <span>01</span>
+        <div>
+          <small>CONÓCEME</small>
+          <strong>Perfil</strong>
+          <p>Trayectoria, perspectiva profesional y forma de trabajar.</p>
+        </div>
+        <b>↗</b>
+      </a>
+
+      <a href="proyectos.html">
+        <span>02</span>
+        <div>
+          <small>TRABAJO</small>
+          <strong>Proyectos</strong>
+          <p>Modelos, analítica, automatización y productos de datos.</p>
+        </div>
+        <b>↗</b>
+      </a>
+
+      <a href="enfoque.html">
+        <span>03</span>
+        <div>
+          <small>MÉTODO</small>
+          <strong>Enfoque</strong>
+          <p>Cómo paso de una pregunta a una solución implementable.</p>
+        </div>
+        <b>↗</b>
+      </a>
+
+      <a href="contacto.html">
+        <span>04</span>
+        <div>
+          <small>CONECTEMOS</small>
+          <strong>Contacto</strong>
+          <p>GitHub, LinkedIn, CV y canales profesionales.</p>
+        </div>
+        <b>↗</b>
+      </a>
+
+      <a href="publicaciones.html">
+        <span>05</span>
+        <div>
+          <small>INVESTIGACIÓN</small>
+          <strong>Publicaciones</strong>
+          <p>Artículos académicos, métodos y líneas de investigación.</p>
+        </div>
+        <b>↗</b>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="footer-editorial home-screen-footer">
+    <span>© <span data-year></span> Juan Isaula</span>
+    <span>Quarto · GitHub Pages</span>
+  </footer>
+</div>
+```

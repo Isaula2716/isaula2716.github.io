@@ -1440,3 +1440,351 @@ a{color:inherit}
     font-size:1.12rem;
   }
 }
+
+
+/* =========================================================
+   V7 — MOBILE EXPERIENCE
+   Desktop styles remain unchanged.
+   ========================================================= */
+
+.mobile-menu-toggle{
+  display:none;
+  width:42px;
+  height:42px;
+  border:1px solid var(--line);
+  border-radius:50%;
+  background:transparent;
+  padding:0;
+  cursor:pointer;
+  position:relative;
+  z-index:1002;
+}
+
+.mobile-menu-toggle span{
+  position:absolute;
+  left:12px;
+  width:16px;
+  height:1.5px;
+  background:var(--text);
+  transition:transform .22s ease, top .22s ease;
+}
+
+.mobile-menu-toggle span:first-child{top:16px}
+.mobile-menu-toggle span:last-child{top:23px}
+
+.mobile-menu-toggle.is-open span:first-child{
+  top:20px;
+  transform:rotate(45deg);
+}
+
+.mobile-menu-toggle.is-open span:last-child{
+  top:20px;
+  transform:rotate(-45deg);
+}
+
+@media(max-width:940px){
+  .topbar{
+    grid-template-columns:1fr auto auto;
+    gap:12px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:rgba(244,241,234,.96);
+    backdrop-filter:blur(14px);
+  }
+
+  .mobile-menu-toggle{
+    display:block;
+  }
+
+  .topnav{
+    display:none;
+  }
+
+  .topnav.mobile-open{
+    display:flex;
+    position:absolute;
+    left:0;
+    right:0;
+    top:calc(100% + 1px);
+    flex-direction:column;
+    align-items:stretch;
+    gap:0;
+    padding:10px 0 14px;
+    background:rgba(244,241,234,.985);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    box-shadow:0 18px 45px rgba(40,32,24,.08);
+  }
+
+  .topnav.mobile-open a{
+    padding:13px 2px;
+    font-family:var(--serif);
+    font-size:1.18rem;
+    color:var(--text);
+  }
+
+  .topnav.mobile-open a.active{
+    color:var(--accent);
+  }
+
+  .topnav a.active:after{
+    display:none;
+  }
+
+  body.mobile-nav-open{
+    overflow:hidden;
+  }
+}
+
+@media(max-width:620px){
+
+  /* Header */
+  .topbar,
+  .page-main,
+  .footer-editorial{
+    width:min(calc(100% - 34px),var(--max));
+  }
+
+  .topbar{
+    min-height:82px;
+  }
+
+  .brand{
+    gap:10px;
+  }
+
+  .brand-monogram{
+    width:42px;
+    height:42px;
+  }
+
+  .brand-text strong{
+    font-size:.92rem;
+  }
+
+  .brand-text small{
+    display:none;
+  }
+
+  .lang{
+    font-size:.78rem;
+    white-space:nowrap;
+  }
+
+  /* Home: denser first screen */
+  .home-screen{
+    gap:24px;
+    padding-top:30px;
+    padding-bottom:36px;
+  }
+
+  .home-screen-copy h1{
+    font-size:clamp(3rem,13.2vw,4.45rem);
+    line-height:.91;
+    letter-spacing:-.055em;
+    margin-top:13px;
+  }
+
+  .home-screen-copy>p{
+    margin-top:22px;
+    font-size:.93rem;
+    line-height:1.62;
+  }
+
+  .page-kicker{
+    font-size:.63rem;
+    letter-spacing:.13em;
+  }
+
+  .home-screen-flow{
+    margin-top:22px;
+    gap:6px;
+    font-size:.87rem;
+  }
+
+  .home-screen-actions{
+    margin-top:22px;
+    gap:19px;
+  }
+
+  .home-screen-actions a{
+    font-size:.79rem;
+  }
+
+  /* Tags consume too much vertical space on mobile.
+     Keep only the first three; the full range exists elsewhere. */
+  .home-screen-tags{
+    margin-top:20px;
+    gap:6px;
+  }
+
+  .home-screen-tags span{
+    padding:6px 9px;
+    font-size:.58rem;
+  }
+
+  .home-screen-tags span:nth-child(n+4){
+    display:none;
+  }
+
+  /* Bring portrait closer and make it less dominant */
+  .home-screen-photo{
+    width:100%;
+    max-width:none;
+    margin-top:2px;
+  }
+
+  .home-screen-photo figure{
+    padding:8px 8px 11px;
+    transform:none;
+    box-shadow:0 14px 35px rgba(41,35,29,.08);
+  }
+
+  .home-screen-photo img{
+    aspect-ratio:16/10;
+    object-position:center 44%;
+  }
+
+  .home-screen-photo figcaption{
+    padding-top:9px;
+    flex-direction:row;
+    align-items:end;
+  }
+
+  .home-screen-photo figcaption strong{
+    font-size:.95rem;
+  }
+
+  .home-screen-photo figcaption span{
+    max-width:58%;
+    font-size:.52rem;
+    text-align:right;
+  }
+
+  /* Compact navigation rows instead of tall cards */
+  .home-screen-nav{
+    grid-template-columns:1fr;
+    border-left:0;
+    border-top:1px solid var(--line);
+    margin-top:4px;
+  }
+
+  .home-screen-nav>a{
+    min-height:0;
+    padding:17px 4px;
+    grid-template-columns:34px minmax(0,1fr) 24px;
+    gap:10px;
+    align-items:center;
+    border-right:0;
+    background:transparent;
+  }
+
+  .home-screen-nav>a:hover{
+    padding-left:4px;
+    padding-right:4px;
+    transform:none;
+  }
+
+  .home-screen-nav>a>span{
+    align-self:start;
+    padding-top:2px;
+    font-size:.61rem;
+  }
+
+  .home-screen-nav small{
+    font-size:.53rem;
+  }
+
+  .home-screen-nav strong{
+    display:inline-block;
+    margin-top:2px;
+    font-size:1.22rem;
+  }
+
+  .home-screen-nav p{
+    margin-top:3px;
+    font-size:.68rem;
+    line-height:1.4;
+  }
+
+  /* Never let iOS render the diagonal arrow as a blue emoji */
+  .home-screen-nav b{
+    width:17px;
+    height:17px;
+    font-size:0;
+    position:relative;
+    display:block;
+  }
+
+  .home-screen-nav b::before{
+    content:"";
+    position:absolute;
+    width:9px;
+    height:9px;
+    right:1px;
+    top:1px;
+    border-top:1.5px solid var(--text);
+    border-right:1.5px solid var(--text);
+  }
+
+  .home-screen-nav b::after{
+    content:"";
+    position:absolute;
+    width:12px;
+    height:1.5px;
+    background:var(--text);
+    transform:rotate(-45deg);
+    transform-origin:right center;
+    right:1px;
+    top:9px;
+  }
+
+  .home-screen-footer{
+    min-height:88px;
+    padding:20px 0 28px;
+    font-size:.7rem;
+  }
+
+  /* Interior pages: reduce oversized headings */
+  .inner-hero,
+  .projects-head,
+  .research-hero{
+    padding-top:40px;
+  }
+
+  .page-title,
+  .contact-v2-copy .page-title{
+    font-size:clamp(3rem,12.5vw,4.35rem);
+    line-height:.94;
+  }
+
+  /* Contact panel */
+  .contact-v2{
+    gap:32px;
+    padding-top:38px;
+  }
+
+  /* Publication feature */
+  .publication-body h2{
+    font-size:clamp(2rem,10vw,3rem);
+  }
+
+  /* Balanced project cards */
+  .portfolio-card{
+    min-height:0;
+    padding:22px 20px;
+  }
+
+  .portfolio-card h3{
+    margin-top:32px;
+    font-size:1.45rem;
+  }
+
+  /* Footer */
+  .footer-editorial{
+    min-height:94px;
+    padding-top:22px;
+    padding-bottom:24px;
+  }
+}

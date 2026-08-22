@@ -75,12 +75,12 @@ description: "Contacto profesional de Juan Isaula: LinkedIn, GitHub y correo ele
           <b>↗</b>
         </a>
 
-        <a href="https://github.com/Isaula2716" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/J-Isaula" target="_blank" rel="noopener noreferrer">
           <span class="contact-link-index">02</span>
           <div>
             <small>GITHUB</small>
-            <strong>@Isaula2716</strong>
-            <p>github.com/Isaula2716</p>
+            <strong>@J-Isaula</strong>
+            <p>github.com/J-Isaula</p>
           </div>
           <b>↗</b>
         </a>

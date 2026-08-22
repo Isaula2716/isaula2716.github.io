@@ -63,3 +63,13 @@ Each menu item loads a different HTML page instead of scrolling to a section in 
 - Added visible profile handles/addresses.
 - Improved visual hierarchy, topics and closing statement.
 - Contact numbering updated to 05 after adding Publications/Research.
+
+## V7 — Mobile optimization
+
+- Added a real mobile navigation menu.
+- Reduced mobile hero typography and vertical spacing.
+- Made the portrait shorter and closer to the introductory content.
+- Converted home navigation cards to compact mobile rows.
+- Replaced the iOS emoji-style diagonal arrows with pure CSS arrows.
+- Reduced oversized headings on internal mobile pages.
+- Desktop layout is intentionally unchanged.

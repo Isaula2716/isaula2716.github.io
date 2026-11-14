@@ -26,6 +26,20 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "numpy<2" pandas matplotlib pyarrow plotly jupyter ipykernel
+
+      - name: Register Quarto blog kernel
+        run: |
+          python -m ipykernel install --user --name quarto-blog --display-name "Python (quarto-blog)"
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 

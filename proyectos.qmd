@@ -16,6 +16,7 @@ description: "Portafolio de proyectos de Juan Isaula en modelación de riesgos, 
       <a class="active" href="proyectos.html">Proyectos</a>
       <a href="publicaciones.html">Publicaciones</a>
       <a href="enfoque.html">Enfoque</a>
+      <a href="blog.html">Blog</a>
       <a href="contacto.html">Contacto</a>
     </nav>
     <div class="lang"><a class="active" href="proyectos.html">ES</a><span>/</span><a href="projects.html">EN</a></div>
@@ -24,7 +25,7 @@ description: "Portafolio de proyectos de Juan Isaula en modelación de riesgos, 
   <main class="page-main">
     <section class="projects-head balanced-projects-head reveal">
       <div>
-        <div class="page-kicker">02 / PROYECTOS</div>
+        <div class="page-kicker">PROYECTOS</div>
         <h1 class="page-title">Modelos y <em>analítica aplicada.</em></h1>
       </div>
       <p>

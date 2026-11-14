@@ -16,6 +16,7 @@ description: "Investigación y publicaciones académicas de Juan Isaula en cienc
       <a href="proyectos.html">Proyectos</a>
       <a class="active" href="publicaciones.html">Publicaciones</a>
       <a href="enfoque.html">Enfoque</a>
+      <a href="blog.html">Blog</a>
       <a href="contacto.html">Contacto</a>
     </nav>
     <div class="lang"><a class="active" href="publicaciones.html">ES</a><span>/</span><a href="research.html">EN</a></div>
@@ -23,7 +24,7 @@ description: "Investigación y publicaciones académicas de Juan Isaula en cienc
 
   <main class="page-main">
     <section class="research-hero reveal">
-      <div class="page-kicker">03 / PUBLICACIONES</div>
+      <div class="page-kicker">PUBLICACIONES</div>
       <h1 class="page-title">Investigación <em>aplicada.</em></h1>
       <p>
         La investigación académica complementa mi trabajo profesional:

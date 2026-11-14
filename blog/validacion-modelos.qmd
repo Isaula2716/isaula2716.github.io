@@ -1,0 +1,102 @@
+---
+pagetitle: "Validación de modelos | Juan Isaula"
+description: "Una guía conceptual sobre desempeño, estabilidad, backtesting e interpretabilidad."
+format:
+  html:
+    toc: false
+    code-fold: false
+    code-tools: true
+---
+
+```{=html}
+<div class="article-topbar">
+  <a class="article-brand" href="../index.html"><span>JI</span><strong>Juan Isaula</strong></a>
+  <a class="article-back" href="../blog.html">← Volver al Blog</a>
+</div>
+
+<header class="article-hero">
+  <div class="article-meta-line">
+    <span>MODEL VALIDATION · MACHINE LEARNING</span>
+    <time>14 NOV 2026</time>
+  </div>
+
+  <h1>Qué significa validar<br><em>un modelo predictivo</em></h1>
+
+  <p>
+    Un modelo no debería evaluarse solamente por una métrica. Validar significa
+    entender su desempeño, estabilidad, limitaciones y utilidad para una decisión real.
+  </p>
+
+  <div class="article-author">
+    <div class="article-avatar">JI</div>
+    <div><strong>Juan Isaula</strong><span>Data Science · Risk Analytics</span></div>
+  </div>
+</header>
+
+<div class="article-layout">
+  <aside class="article-side">
+    <span>EN ESTE ARTÍCULO</span>
+    <a href="#validar-no-es-solo-medir-accuracy">01 · Validación</a>
+    <a href="#desempeno">02 · Desempeño</a>
+    <a href="#backtesting">03 · Backtesting</a>
+    <a href="#conclusion">04 · Conclusión</a>
+  </aside>
+
+  <article class="article-content">
+```
+
+## Validar no es solo medir accuracy
+
+Un modelo puede mostrar buen desempeño estadístico y aun así no ser útil para tomar decisiones.
+
+Una validación robusta suele considerar varias dimensiones:
+
+1. desempeño;
+2. estabilidad;
+3. interpretabilidad;
+4. consistencia temporal;
+5. sensibilidad;
+6. utilidad de negocio.
+
+::: {.article-callout}
+### Una pregunta más útil
+
+En vez de preguntar solamente “¿qué tan bueno es el modelo?”, conviene preguntar:
+
+**¿Podemos confiar en este modelo para apoyar una decisión real?**
+:::
+
+## Desempeño
+
+Dependiendo del problema pueden utilizarse métricas como:
+
+| Tipo de problema | Métricas frecuentes |
+|---|---|
+| Clasificación | AUC, KS, precision, recall |
+| Regresión | RMSE, MAE, MAPE |
+| Forecasting | MAE, RMSE, MAPE, backtesting |
+| Scoring | AUC, KS, matrices de confusión |
+
+Ninguna métrica debe interpretarse de forma aislada.
+
+## Backtesting
+
+El backtesting compara lo proyectado por el modelo con los resultados observados posteriormente.
+
+Su objetivo es evaluar si el modelo conserva capacidad predictiva **fuera de la muestra utilizada para su construcción**.
+
+## Conclusión
+
+La validación conecta estadística, negocio y gobernanza.
+
+Un modelo robusto no es necesariamente el más complejo: es aquel cuyo desempeño, supuestos y limitaciones pueden explicarse y monitorearse.
+
+```{=html}
+  </article>
+</div>
+
+<div class="article-next">
+  <span>VOLVER</span>
+  <a href="../blog.html">Explorar todos los artículos →</a>
+</div>
+```

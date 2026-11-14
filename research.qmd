@@ -16,6 +16,7 @@ description: "Academic research and publications by Juan Isaula in data science,
       <a href="projects.html">Projects</a>
       <a class="active" href="research.html">Research</a>
       <a href="approach.html">Approach</a>
+      <a href="blog-en.html">Blog</a>
       <a href="contact.html">Contact</a>
     </nav>
     <div class="lang"><a href="publicaciones.html">ES</a><span>/</span><a class="active" href="research.html">EN</a></div>
@@ -23,7 +24,7 @@ description: "Academic research and publications by Juan Isaula in data science,
 
   <main class="page-main">
     <section class="research-hero reveal">
-      <div class="page-kicker">03 / RESEARCH</div>
+      <div class="page-kicker">RESEARCH</div>
       <h1 class="page-title">Applied <em>research.</em></h1>
       <p>
         Academic research complements my professional work by providing space

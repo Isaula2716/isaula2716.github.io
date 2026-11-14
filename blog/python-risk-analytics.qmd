@@ -1,0 +1,119 @@
+---
+pagetitle: "Python para análisis de riesgo | Juan Isaula"
+description: "Una introducción práctica al uso de Python para análisis reproducible de riesgo."
+jupyter: quarto-blog
+format:
+  html:
+    toc: false
+    code-fold: false
+    code-tools: true
+    code-copy: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{=html}
+<div class="article-topbar">
+  <a class="article-brand" href="../index.html"><span>JI</span><strong>Juan Isaula</strong></a>
+  <a class="article-back" href="../blog.html">← Volver al Blog</a>
+</div>
+
+<header class="article-hero">
+  <div class="article-meta-line">
+    <span>PYTHON · RISK ANALYTICS</span>
+    <time>14 NOV 2026</time>
+  </div>
+
+  <h1>Python para análisis de riesgo:<br><em>una introducción práctica</em></h1>
+
+  <p>
+    Cómo estructurar un análisis reproducible combinando datos, código,
+    resultados y explicación dentro de una misma publicación.
+  </p>
+
+  <div class="article-author">
+    <div class="article-avatar">JI</div>
+    <div><strong>Juan Isaula</strong><span>Data Science · Risk Analytics</span></div>
+  </div>
+</header>
+
+<div class="article-layout">
+  <aside class="article-side">
+    <span>EN ESTE ARTÍCULO</span>
+    <a href="#por-que-python-en-analitica-de-riesgos">01 · Por qué Python</a>
+    <a href="#ejemplo-sencillo">02 · Ejemplo</a>
+    <a href="#lectura-del-resultado">03 · Interpretación</a>
+    <a href="#proximos-pasos">04 · Próximos pasos</a>
+  </aside>
+
+  <article class="article-content">
+```
+
+## ¿Por qué Python en analítica de riesgos?
+
+Python permite combinar **análisis estadístico, visualización, automatización y modelación** dentro de un mismo flujo reproducible.
+
+En analítica de riesgos esto resulta útil para tareas como:
+
+- análisis exploratorio;
+- cálculo de indicadores;
+- construcción y validación de modelos;
+- automatización de reportes;
+- documentación reproducible.
+
+::: {.article-callout}
+### La idea central
+
+El valor no está solamente en ejecutar código. Está en construir un proceso que otra persona pueda **entender, revisar y reproducir**.
+:::
+
+## Ejemplo sencillo
+
+Supongamos que tenemos información agregada de tres segmentos de cartera:
+
+```{python}
+import pandas as pd
+
+data = pd.DataFrame({
+    "segmento": ["A", "B", "C"],
+    "saldo": [125000, 98000, 143000],
+    "mora_90": [0.021, 0.038, 0.017]
+})
+
+data
+```
+
+La ventaja de Quarto es que el lector puede ver en un mismo documento:
+
+1. la explicación;
+2. el código utilizado;
+3. el resultado generado.
+
+## Lectura del resultado
+
+Un análisis sencillo como este ya permite comparar exposición y niveles de mora entre segmentos.
+
+En un caso real, el siguiente paso podría consistir en incorporar variables adicionales como utilización, score, originación, vintage o comportamiento de pago.
+
+## Próximos pasos
+
+Este mismo enfoque puede extenderse a temas más avanzados:
+
+- visualización de riesgo con Python;
+- modelos de clasificación;
+- backtesting;
+- forecasting;
+- stress testing;
+- machine learning aplicado.
+
+```{=html}
+  </article>
+</div>
+
+<div class="article-next">
+  <span>SIGUIENTE ARTÍCULO</span>
+  <a href="validacion-modelos.html">Qué significa validar un modelo predictivo →</a>
+</div>
+```

@@ -1,0 +1,100 @@
+---
+pagetitle: "Blog | Juan Isaula"
+description: "Notas, tutoriales y artículos sobre Python, R, Ciencia de Datos, Risk Analytics, Machine Learning e IA Aplicada."
+page-layout: full
+---
+
+```{=html}
+<div class="editorial-site">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a href="perfil.html">Perfil</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="publicaciones.html">Publicaciones</a>
+      <a class="active" href="blog.html">Blog</a>
+      <a href="enfoque.html">Enfoque</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="lang"><a class="active" href="blog.html">ES</a><span>/</span><a href="blog-en.html">EN</a></div>
+  </header>
+
+  <main class="page-main">
+    <section class="blog-pro-hero">
+      <div>
+        <div class="page-kicker">BLOG / NOTAS TÉCNICAS</div>
+        <h1>Ideas, código y <em>analítica aplicada.</em></h1>
+      </div>
+      <p>
+        Un espacio para explicar conceptos, documentar experimentos y compartir
+        ejemplos reproducibles sobre Python, R, machine learning, forecasting,
+        riesgo financiero e inteligencia artificial.
+      </p>
+    </section>
+    <section class="blog-pro-list">
+      <div class="blog-list-head">
+        <div>
+          <span>ÚLTIMOS ARTÍCULOS</span>
+          <h2>Notas para aprender y experimentar.</h2>
+        </div>
+        <div class="blog-topic-pills">
+          <span>Python</span><span>Model Validation</span><span>Forecasting</span><span>Machine Learning</span>
+        </div>
+      </div>
+
+      <a class="blog-pro-row" href="blog/validacion-modelos.html">
+        <div class="blog-row-no">02</div>
+        <div class="blog-row-body">
+          <small>MODEL VALIDATION · MACHINE LEARNING</small>
+          <h3>Qué significa validar un modelo predictivo</h3>
+          <p>Desempeño, estabilidad, backtesting, interpretabilidad y utilidad para la toma de decisiones.</p>
+        </div>
+        <time>14 NOV 2026</time>
+        <span class="blog-row-arrow">→</span>
+      </a>
+
+      <div class="blog-pro-row blog-row-disabled">
+        <div class="blog-row-no">03</div>
+        <div class="blog-row-body">
+          <small>PRÓXIMAMENTE · FORECASTING</small>
+          <h3>Series de tiempo aplicadas a riesgo con Python</h3>
+          <p>ARIMA, SARIMAX, validación temporal y lectura práctica de resultados.</p>
+        </div>
+        <time>—</time>
+        <span class="blog-row-arrow">→</span>
+      </div>
+
+      <div class="blog-pro-row blog-row-disabled">
+        <div class="blog-row-no">04</div>
+        <div class="blog-row-body">
+          <small>PRÓXIMAMENTE · CREDIT RISK</small>
+          <h3>Cómo interpretar AUC, KS y matrices de confusión</h3>
+          <p>Métricas clave para evaluar modelos de clasificación en riesgo de crédito.</p>
+        </div>
+        <time>—</time>
+        <span class="blog-row-arrow">→</span>
+      </div>
+    </section>
+
+    <section class="blog-pro-note">
+      <div>
+        <span>QUARTO + PYTHON</span>
+        <strong>Contenido reproducible</strong>
+      </div>
+      <p>
+        Los artículos pueden combinar explicación, fórmulas, tablas,
+        visualizaciones y código ejecutado para que el lector vea tanto la
+        metodología como el resultado.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer-editorial">
+    <span>© <span data-year></span> Juan Isaula</span>
+    <span>Blog · Ideas · Código</span>
+  </footer>
+</div>
+```

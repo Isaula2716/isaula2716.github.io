@@ -1,124 +1,54 @@
 ---
 pagetitle: "Juan Isaula | Data Science & Risk Analytics"
 lang: en
-description: "Professional portfolio of Juan Isaula: Data Science, Risk Analytics, Forecasting, Machine Learning and Applied AI."
+description: "Professional portfolio of Juan Isaula: Data Science, Risk Analytics, Machine Learning and Applied AI."
 ---
 
 ```{=html}
-<div class="editorial-site home-screen-site">
+<div class="site-shell home-site">
   <header class="topbar">
-    <a class="brand" href="en.html">
+    <a class="brand" href="index.html">
       <span class="brand-monogram">JI</span>
       <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
     </a>
     <nav class="topnav" aria-label="Primary navigation">
-      <a href="profile.html">Profile</a><a href="projects.html">Projects</a><a href="research.html">Research</a><a href="approach.html">Approach</a><a href="contact.html">Contact</a>
+      <a href="profile.html">Profile</a><a href="projects.html">Projects</a><a href="research.html">Research</a><a href="blog-en.html">Blog</a><a href="approach.html">Approach</a><a href="contact.html">Contact</a>
     </nav>
     <div class="lang"><a href="index.html">ES</a><span>/</span><a class="active" href="en.html">EN</a></div>
   </header>
 
-  <main class="home-screen page-main">
-    <section class="home-screen-copy reveal">
-      <div class="page-kicker">DATA SCIENCE · RISK ANALYTICS · APPLIED AI</div>
-
-      <h1>
-        Data, risk and technology
-        <em>for actionable decisions.</em>
-      </h1>
-
-      <p>
-        I develop models, methodologies and analytical products that connect
-        statistics, risk expertise and technology with real business problems.
-      </p>
-
-      <div class="home-screen-flow">
-        <span>Data</span><i>→</i>
-        <span>Models</span><i>→</i>
-        <span>Validation</span><i>→</i>
-        <span>Decisions</span>
+  <main class="page-main home-modern">
+    <section class="hero-modern reveal">
+      <div class="hero-modern-copy">
+        <div class="status-chip"><span></span> Data Science · Risk · AI</div>
+        <p class="eyebrow">APPLIED ANALYTICS FOR REAL DECISIONS</p>
+        <h1>I connect <em>data, models and risk</em> to build better decisions.</h1>
+        <p class="hero-lead">I develop models, methodologies and analytical products that combine statistical rigor, business knowledge and technological implementation.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="projects.html">View projects</a>
+          <a class="btn btn-ghost" href="profile.html">About me</a>
+        </div>
+        <div class="hero-skills"><span>Credit Risk</span><span>Forecasting</span><span>Machine Learning</span><span>Data Products</span><span>Applied AI</span></div>
       </div>
 
-      <div class="home-screen-actions">
-        <a class="screen-primary" href="projects.html">Explore projects →</a>
-        <a href="profile.html">About my profile</a>
-      </div>
-
-      <div class="home-screen-tags">
-        <span>Credit Risk</span>
-        <span>Forecasting</span>
-        <span>Machine Learning</span>
-        <span>Data Products</span>
-        <span>Applied AI</span>
-        <span>Research</span>
+      <div class="hero-modern-visual">
+        <div class="photo-card">
+          <img src="assets/juan-isaula-profile.png" alt="Portrait of Juan Isaula">
+          <div class="photo-footer"><div><strong>Juan Isaula</strong><small>Honduras</small></div><span>Data Science & Risk Analytics</span></div>
+        </div>
+        <div class="floating-card floating-one"><small>FOCUS</small><strong>Models that reach implementation</strong></div>
+        <div class="floating-card floating-two"><small>WORKFLOW</small><strong>Data → Models → Decisions</strong></div>
       </div>
     </section>
 
-    <section class="home-screen-photo reveal">
-      <figure>
-        <img src="assets/juan-isaula-profile.png" alt="Portrait of Juan Isaula">
-        <figcaption>
-          <strong>Juan Isaula</strong>
-          <span>Data Science · Risk · Applied AI</span>
-        </figcaption>
-      </figure>
+    <section class="bento-nav reveal" aria-label="Explorar portafolio">
+      <a class="bento-card bento-wide" href="projects.html"><div><small>01 · WORK</small><h2>Projects</h2><p>Risk modeling, forecasting, machine learning, automation and analytical products.</p></div><span class="arrow">↗</span></a>
+      <a class="bento-card" href="profile.html"><div><small>02 · PROFILE</small><h2>About me</h2><p>Background, professional perspective and how I work.</p></div><span class="arrow">↗</span></a>
+      <a class="bento-card accent-card" href="research.html"><div><small>03 · RESEARCH</small><h2>Research</h2><p>Academic research in data science and finance.</p></div><span class="arrow">↗</span></a>
+      <a class="bento-card dark-card" href="approach.html"><div><small>04 · METHOD</small><h2>Approach</h2><p>How I move from a question to a defensible and implementable solution.</p></div><span class="arrow">↗</span></a>
+      <a class="bento-card" href="contact.html"><div><small>05 · CONTACT</small><h2>Connect</h2><p>LinkedIn, GitHub and professional email.</p></div><span class="arrow">↗</span></a>
     </section>
-
-    <nav class="home-screen-nav reveal" aria-label="Explore portfolio">
-      <a href="profile.html">
-        <span>01</span>
-        <div>
-          <small>ABOUT ME</small>
-          <strong>Profile</strong>
-          <p>Background, professional perspective and how I work.</p>
-        </div>
-        <b>↗</b>
-      </a>
-
-      <a href="projects.html">
-        <span>02</span>
-        <div>
-          <small>WORK</small>
-          <strong>Projects</strong>
-          <p>Models, analytics, automation and data products.</p>
-        </div>
-        <b>↗</b>
-      </a>
-
-      <a href="approach.html">
-        <span>03</span>
-        <div>
-          <small>METHOD</small>
-          <strong>Approach</strong>
-          <p>How I move from a question to an implementable solution.</p>
-        </div>
-        <b>↗</b>
-      </a>
-
-      <a href="contact.html">
-        <span>04</span>
-        <div>
-          <small>LET'S CONNECT</small>
-          <strong>Contact</strong>
-          <p>GitHub, LinkedIn, CV and professional channels.</p>
-        </div>
-        <b>↗</b>
-      </a>
-
-      <a href="research.html">
-        <span>05</span>
-        <div>
-          <small>RESEARCH</small>
-          <strong>Research</strong>
-          <p>Academic articles, methods and research interests.</p>
-        </div>
-        <b>↗</b>
-      </a>
-    </nav>
   </main>
-
-  <footer class="footer-editorial home-screen-footer">
-    <span>© <span data-year></span> Juan Isaula</span>
-    <span>Quarto · GitHub Pages</span>
-  </footer>
+  <footer class="footer-editorial"><span>© <span data-year></span> Juan Isaula</span><span>Quarto · GitHub Pages</span></footer>
 </div>
 ```

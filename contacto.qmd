@@ -30,7 +30,7 @@ description: "Contacto profesional de Juan Isaula: LinkedIn, GitHub y correo ele
 
   <main class="page-main contact-v2">
     <section class="contact-v2-copy reveal">
-      <div class="page-kicker">05 / CONTACTO</div>
+      <div class="page-kicker">CONTACTO</div>
 
       <h1 class="page-title">
         Conversemos sobre

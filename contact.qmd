@@ -30,7 +30,7 @@ description: "Professional contact information for Juan Isaula: LinkedIn, GitHub
 
   <main class="page-main contact-v2">
     <section class="contact-v2-copy reveal">
-      <div class="page-kicker">05 / CONTACT</div>
+      <div class="page-kicker">CONTACT</div>
 
       <h1 class="page-title">
         Let's talk about

@@ -16,6 +16,7 @@ description: "Juan Isaula's portfolio of projects in risk modeling, forecasting,
       <a class="active" href="projects.html">Projects</a>
       <a href="research.html">Research</a>
       <a href="approach.html">Approach</a>
+      <a href="blog-en.html">Blog</a>
       <a href="contact.html">Contact</a>
     </nav>
     <div class="lang"><a href="proyectos.html">ES</a><span>/</span><a class="active" href="projects.html">EN</a></div>
@@ -24,7 +25,7 @@ description: "Juan Isaula's portfolio of projects in risk modeling, forecasting,
   <main class="page-main">
     <section class="projects-head balanced-projects-head reveal">
       <div>
-        <div class="page-kicker">02 / PROJECTS</div>
+        <div class="page-kicker">PROJECTS</div>
         <h1 class="page-title">Models & <em>applied analytics.</em></h1>
       </div>
       <p>

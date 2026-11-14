@@ -1,75 +1,114 @@
-# Juan Isaula Portfolio — Concept C Multipage
+# Juan Isaula — Portfolio
 
-This version converts the previous one-page scrolling site into a true multi-page Quarto website.
+Quarto multipage portfolio for GitHub Pages.
 
-## Spanish pages
-- `index.qmd` → Home
-- `perfil.qmd` → Profile
-- `proyectos.qmd` → Projects
-- `enfoque.qmd` → Approach
-- `contacto.qmd` → Contact
+## Concept D
+Modern executive redesign focused on Data Science, Risk Analytics and Applied AI.
 
-## English pages
-- `en.qmd` → Home
-- `profile.qmd`
-- `projects.qmd`
-- `approach.qmd`
-- `contact.qmd`
 
-## Preview
+## Blog técnico
+
+Se agregó una sección Blog construida con Quarto Listings.
+
+### Crear un nuevo post
+
+Crea un archivo `.qmd` dentro de `blog/`, por ejemplo:
+
+`blog/introduccion-pandas.qmd`
+
+Front matter recomendado:
+
+```yaml
+---
+title: "Introducción a Pandas"
+description: "Conceptos básicos para análisis de datos con Python."
+author: "Juan Isaula"
+date: "2026-11-14"
+categories: [Python, Pandas, Data Science]
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-tools: true
+---
+```
+
+Después puedes escribir Markdown y ejecutar Python directamente:
+
+````markdown
+```{python}
+import pandas as pd
+print(pd.__version__)
+```
+````
+
+### Publicar
+
+Después de agregar o editar posts:
 
 ```bash
 quarto preview
+git add .
+git commit -m "Nuevo post del blog"
+git push
 ```
 
-Each menu item loads a different HTML page instead of scrolling to a section in the same page.
+GitHub Actions renderizará el sitio y actualizará el Blog.
 
 
-## V2 changes
+## Stable preview mode
 
-- Home redesigned as a richer landing page.
-- Home and Profile now have distinct roles.
-- Added three capability pillars, selected work, workflow band and contact CTA.
-- Profile expanded with professional perspective and working principles.
-- Spanish and English versions updated consistently.
+This version disables Quarto's automatic input watching and automatic browser navigation
+during preview. This prevents repeated reload loops when executable Blog posts generate
+or update computational artifacts.
 
-## V3 changes
+Recommended workflow:
 
-- Home is now designed as a one-screen desktop landing page.
-- No stacked vertical sections on the desktop home.
-- Four navigation cards link directly to Profile, Projects, Approach and Contact.
-- Spanish and English home pages use the same compact structure.
-- Other pages remain independent.
+```bash
+conda activate quarto-blog
+quarto render
+quarto preview --no-watch-inputs --no-navigate
+```
 
-## V4 alignment fix
+After editing a post:
 
-- Centered the entire home composition within the same max-width container as the header.
-- Reduced hero headline scale slightly on wide screens.
-- Rebalanced text/photo columns and spacing.
-- Navigation cards now align with the header and hero instead of spanning the viewport edge-to-edge.
+1. Stop preview with `Ctrl + C`
+2. Run `quarto render`
+3. Run `quarto preview --no-watch-inputs --no-navigate`
 
-## V5 changes
+On macOS you can also double-click `preview-safe.command` after granting execution permission if needed.
 
-- Projects page redesigned so Forward-Looking is no longer visually dominant.
-- Portfolio now presents six balanced work streams: credit risk models, forecasting/stress testing, sector risk, machine learning, risk monitoring/data products, and automation/applied AI.
-- Added a new Publications / Research page.
-- Added the 2025 E&A article on recurrent neural networks (LSTM vs GRU) for financial-market forecasting, with DOI and PDF links.
-- Added Publications / Research to the top navigation and home navigation.
 
-## V6 changes
+## Blog V4 — índice estático
 
-- Contact page redesigned in Spanish and English.
-- Added live LinkedIn, GitHub and email links.
-- Added visible profile handles/addresses.
-- Improved visual hierarchy, topics and closing statement.
-- Contact numbering updated to 05 after adding Publications/Research.
+El índice del Blog ya no utiliza `listing:` de Quarto.
 
-## V7 — Mobile optimization
+Esto elimina la capa JavaScript dinámica de listings/filtros y deja una página HTML
+simple con enlaces directos a los posts.
 
-- Added a real mobile navigation menu.
-- Reduced mobile hero typography and vertical spacing.
-- Made the portrait shorter and closer to the introductory content.
-- Converted home navigation cards to compact mobile rows.
-- Replaced the iOS emoji-style diagonal arrows with pure CSS arrows.
-- Reduced oversized headings on internal mobile pages.
-- Desktop layout is intentionally unchanged.
+Los posts siguen siendo archivos `.qmd` y pueden ejecutar Python normalmente.
+Para agregar un post nuevo:
+
+1. Crear el `.qmd` dentro de `blog/`.
+2. Agregar una tarjeta/enlace en `blog.qmd`.
+3. Ejecutar `quarto render`.
+
+## Blog V5 Pro
+
+- Nuevo índice visual con portada destacada y preview de código.
+- Contraste corregido usando las variables reales del tema (`--navy`, `--blue`, `--teal`, `--ink`).
+- Artículos con cabecera editorial propia.
+- Tabla de navegación lateral en escritorio.
+- Código con fondo oscuro y tipografía monoespaciada legible.
+- Outputs de Python en tarjetas blancas separadas.
+- Diseño responsive para móvil.
+
+## Blog V6
+- Se eliminó el bloque grande de código de la portada del Blog.
+- El código aparece únicamente dentro de los artículos.
+- El artículo destacado queda más limpio y editorial.
+
+## Blog V7
+- Se eliminó por completo el artículo destacado de la portada.
+- La página del Blog inicia directamente en “Últimos artículos / Notas para aprender y experimentar”.
+- El artículo de Python sigue existiendo como post individual, pero ya no ocupa la portada.

@@ -10,3 +10,6 @@ _site/
 
 /.quarto/
 **/*.quarto_ipynb
+
+.Rhistory
+.Rproj.user/

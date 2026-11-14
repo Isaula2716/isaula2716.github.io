@@ -11,14 +11,14 @@ lang: en
       <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
     </a>
     <nav class="topnav" aria-label="Primary navigation">
-      <a class="active" href="profile.html">Profile</a><a href="projects.html">Projects</a><a href="research.html">Research</a><a href="approach.html">Approach</a><a href="contact.html">Contact</a>
+      <a class="active" href="profile.html">Profile</a><a href="projects.html">Projects</a><a href="research.html">Research</a><a href="blog-en.html">Blog</a><a href="approach.html">Approach</a><a href="contact.html">Contact</a>
     </nav>
     <div class="lang"><a href="perfil.html">ES</a><span>/</span><a class="active" href="profile.html">EN</a></div>
   </header>
 
   <main class="page-main">
     <section class="inner-hero reveal">
-      <div class="page-kicker">01 / PROFILE</div>
+      <div class="page-kicker">PROFILE</div>
       <h1 class="page-title">Rigorous analytics.<br><em>Practical implementation.</em></h1>
       <p class="page-subtitle">
         My profile combines data science, risk analytics and solution development.

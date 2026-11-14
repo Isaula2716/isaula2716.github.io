@@ -1,0 +1,99 @@
+---
+pagetitle: "Blog | Juan Isaula"
+description: "Technical notes and articles on Python, R, Data Science, Risk Analytics, Machine Learning and Applied AI."
+page-layout: full
+---
+
+```{=html}
+<div class="editorial-site">
+  <header class="topbar">
+    <a class="brand" href="en.html">
+      <span class="brand-monogram">JI</span>
+      <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
+    </a>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a href="profile.html">Profile</a>
+      <a href="projects.html">Projects</a>
+      <a href="research.html">Research</a>
+      <a class="active" href="blog-en.html">Blog</a>
+      <a href="approach.html">Approach</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="lang"><a href="blog.html">ES</a><span>/</span><a class="active" href="blog-en.html">EN</a></div>
+  </header>
+
+  <main class="page-main">
+    <section class="blog-pro-hero">
+      <div>
+        <div class="page-kicker">BLOG / TECHNICAL NOTES</div>
+        <h1>Ideas, code and <em>applied analytics.</em></h1>
+      </div>
+      <p>
+        A space to explain concepts, document experiments and share reproducible
+        examples on Python, R, machine learning, forecasting, financial risk
+        and artificial intelligence.
+      </p>
+    </section>
+    <section class="blog-pro-list">
+      <div class="blog-list-head">
+        <div>
+          <span>LATEST ARTICLES</span>
+          <h2>Notes to learn and experiment.</h2>
+        </div>
+        <div class="blog-topic-pills">
+          <span>Python</span><span>Model Validation</span><span>Forecasting</span><span>Machine Learning</span>
+        </div>
+      </div>
+
+      <a class="blog-pro-row" href="blog/validacion-modelos.html">
+        <div class="blog-row-no">02</div>
+        <div class="blog-row-body">
+          <small>MODEL VALIDATION · MACHINE LEARNING</small>
+          <h3>What does validating a predictive model mean?</h3>
+          <p>Performance, stability, backtesting, interpretability and usefulness for decision-making.</p>
+        </div>
+        <time>14 NOV 2026</time>
+        <span class="blog-row-arrow">→</span>
+      </a>
+
+      <div class="blog-pro-row blog-row-disabled">
+        <div class="blog-row-no">03</div>
+        <div class="blog-row-body">
+          <small>COMING SOON · FORECASTING</small>
+          <h3>Time series for risk analytics with Python</h3>
+          <p>ARIMA, SARIMAX, temporal validation and practical interpretation of results.</p>
+        </div>
+        <time>—</time>
+        <span class="blog-row-arrow">→</span>
+      </div>
+
+      <div class="blog-pro-row blog-row-disabled">
+        <div class="blog-row-no">04</div>
+        <div class="blog-row-body">
+          <small>COMING SOON · CREDIT RISK</small>
+          <h3>How to interpret AUC, KS and confusion matrices</h3>
+          <p>Key metrics for evaluating classification models in credit risk.</p>
+        </div>
+        <time>—</time>
+        <span class="blog-row-arrow">→</span>
+      </div>
+    </section>
+
+    <section class="blog-pro-note">
+      <div>
+        <span>QUARTO + PYTHON</span>
+        <strong>Reproducible content</strong>
+      </div>
+      <p>
+        Posts can combine explanation, formulas, tables, visualizations and executed
+        code so readers can see both the methodology and the result.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer-editorial">
+    <span>© <span data-year></span> Juan Isaula</span>
+    <span>Blog · Ideas · Code</span>
+  </footer>
+</div>
+```

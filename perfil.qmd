@@ -11,19 +11,20 @@ lang: es
       <span class="brand-text"><strong>Juan Isaula</strong><small>Data Science · Risk Analytics</small></span>
     </a>
     <nav class="topnav" aria-label="Navegación principal">
-      <a class="active" href="perfil.html">Perfil</a><a href="proyectos.html">Proyectos</a><a href="publicaciones.html">Publicaciones</a><a href="enfoque.html">Enfoque</a><a href="contacto.html">Contacto</a>
+      <a class="active" href="perfil.html">Perfil</a><a href="proyectos.html">Proyectos</a><a href="publicaciones.html">Publicaciones</a><a href="blog.html">Blog</a><a href="enfoque.html">Enfoque</a><a href="contacto.html">Contacto</a>
     </nav>
     <div class="lang"><a class="active" href="perfil.html">ES</a><span>/</span><a href="profile.html">EN</a></div>
   </header>
 
   <main class="page-main">
     <section class="inner-hero reveal">
-      <div class="page-kicker">01 / PERFIL</div>
+      <div class="page-kicker">PERFIL</div>
       <h1 class="page-title">Analítica rigurosa.<br><em>Implementación práctica.</em></h1>
       <p class="page-subtitle">
-        Mi perfil combina ciencia de datos, analítica de riesgos y desarrollo de soluciones.
-        Me interesan especialmente los retos donde el valor depende tanto de la calidad del modelo
-        como de su capacidad de llegar a una decisión o producto utilizable.
+      Soy un profesional con formación en Matemáticas, Estadística, Economía y Finanzas,  
+      especializado en la aplicación de ciencia de datos y modelos cuantitativos a la gestión de 
+      riesgos en el sector financiero.
+      
       </p>
     </section>
 
@@ -39,13 +40,22 @@ lang: es
         <div class="section-label">PERSPECTIVA PROFESIONAL</div>
         <h2>Modelar es solo una parte del trabajo.</h2>
         <p>
-          Trabajo con problemas donde se cruzan estadística, programación, riesgo y negocio.
-          Eso implica estructurar datos, formular hipótesis, comparar metodologías, validar resultados,
-          comunicar supuestos y convertir el análisis en herramientas que puedan utilizar otros equipos.
+        
+        Actualmente, desde una posición de liderazgo en Ciencia de Datos, impulso iniciativas que 
+        integran estadística, econometría, aprendizaje automático e ingeniería de datos para abordar 
+        desafíos relacionados con el riesgo crediticio, el comportamiento de los portafolios, las 
+        proyecciones financieras y el entorno macroeconómico.
         </p>
         <p>
-          Mi interés está en soluciones reproducibles y defendibles: modelos que puedan explicarse,
-          procesos que puedan mantenerse y productos que ayuden a tomar mejores decisiones.
+        Mi enfoque va más allá del desarrollo de modelos. Me interesa comprender los problemas desde su
+        dimensión financiera y estratégica, construir soluciones metodológicamente sólidas y llevarlas 
+        a herramientas, procesos y productos analíticos que puedan utilizarse en la práctica.
+        <p>
+        <p> 
+        Me motiva especialmente conectar el rigor cuantitativo con la visión de negocio, liderar  
+        equipos multidisciplinarios y desarrollar capacidades analíticas que contribuyan a anticipar 
+        riesgos, identificar oportunidades y fortalecer la toma de decisiones.
+
         </p>
 
         <div class="profile-notes">
